@@ -2,6 +2,7 @@
 # encoding: utf-8
 
 import logging
+import os
 
 from telegram.ext import Updater, CommandHandler
 
@@ -20,7 +21,7 @@ def error(bot, update, error):
 
 
 def main():
-    updater = Updater('1234:xxxxxx')
+    updater = Updater(os.environ['TOKEN'])
 
     updater.dispatcher.add_handler(CommandHandler('decretar', decretar))
     updater.dispatcher.add_error_handler(error)
