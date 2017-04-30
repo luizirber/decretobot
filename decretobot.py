@@ -27,7 +27,7 @@ with open('frases.json', 'r') as f:
 
 def decretar(bot, update):
     update.message.reply_text(
-        template.format(frases=".".join(sample(frases, 5))))
+        template.format(frases=". ".join(sample(frases, 5))))
 
 
 def error(bot, update, error):
