@@ -1,5 +1,7 @@
 # DECRETOBOT!
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/luizirber/decretobot/master?filepath=notebooks%2F01.Exploration.ipynb)
+
 # Instalação
 
 Para um tutorial bastante completo,
